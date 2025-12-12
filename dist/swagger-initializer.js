@@ -3,7 +3,7 @@ window.onload = function() {
 
   // the following lines will be replaced by docker/configurator, when it runs in a docker-container
   window.ui = SwaggerUIBundle({
-    url: "https://raw.githubusercontent.com/bxservice/idempiere-rest/refs/heads/master/com.trekglobal.idempiere.rest.api/openapi/idempiere-rest.yml",
+    url: "swagger.yaml",
     dom_id: '#swagger-ui',
     deepLinking: true,
     presets: [
